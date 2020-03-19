@@ -1,0 +1,252 @@
+    *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Corbel';
+    text-decoration: none;
+
+    }
+
+    body{  
+
+    }
+
+    .Container_Form{
+
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        background-color: #fff;
+
+    }
+
+    .Box{
+        
+        width: 30%;
+        height: 85%;
+        padding: 40px 20px;
+        border-radius: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  
+        position: absolute;
+        background-color: #fff; 
+        -webkit-box-shadow: 6px 10px 82px -5px rgba(0,0,0,0.5);
+        -moz-box-shadow: 6px 10px 82px -5px rgba(0,0,0,0.5);
+        box-shadow: 6px 10px 82px -5px rgba(0,0,0,0.5);
+
+    }
+
+    .Header{
+
+        width: 100%;
+        height: 74px;
+        background: #fff;
+        align-items: center;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    #Icon_Fire{
+
+        margin-left: 3%;
+
+    }
+
+    #Icon_DER{
+
+        margin-right: 3%;
+    }
+
+    /*formulario Login*/
+
+
+    .form{
+
+        width: 100%;
+        margin-top: 20%;
+
+    }
+
+    .form .Welcome_Form{
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 17%
+
+    }
+
+    .form .Welcome-Form h1{
+        
+        font-weight: 300;
+        font-size: 30px;
+        color: #898989;
+
+    }
+
+    .form .Welcome_Form h2{
+        
+        font-size: 34px;
+        margin-left: 10px;
+        margin-top: -4px;
+        color: rgb(10, 140, 211);
+        font-weight: 1000;
+
+    }
+
+    
+
+    .line-input{
+
+        max-width: 350px;
+        display: flex;
+        border-bottom: 1px solid #efefef;
+        margin: auto;
+        margin-top: 40px;
+        padding: 6px;
+        position: relative;
+
+    }
+
+    .border-input{
+
+        border-bottom: 1px solid #5584FF;
+
+    }
+
+    .line-input input{
+
+        border-style: none;
+        outline: 0px;
+        margin-left: 10px;
+        font-size: 16px;
+        width: 100%;
+        font-weight: 300;
+
+    }
+
+    .line-input label{
+
+        font-size: 20px;
+        position: relative;
+        top: -4px;
+        color: rgb(10, 140, 211);
+
+    }
+
+    .form button{
+
+        width: 300px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        margin-top: 70px;
+        color: white;
+        background: rgb(10, 140, 211);
+        border-style: none;
+        outline: 0px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .form button:hover{
+
+        opacity: .9
+
+    }
+
+    .form button label{
+
+        position: relative;
+        left: 50px;
+        font-size: 10px;
+        cursor: pointer;
+
+    }
+
+
+    .Message{
+
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: left;
+        padding: 6px;
+        color: red;
+    }
+
+
+    .active{
+
+        border-bottom: 4px solid #5584FF;
+
+    }
+
+
+    /*Principal*/
+
+
+    .Welcome{
+
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 100px;
+        background: rgba(0,0,0,0.6);
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .Welcome h1{
+        font-size: 50px;
+        color: white;
+        font-weight: 100;
+    }
+            
+    .Welcome a{
+        display: block;
+        margin-top: 40px;
+        font-size: 20px;
+        padding: 10px;
+        border: 1px solid white;
+    }
+            
+    .Welcome a:hover{
+        color: black;
+        background: white;
+    }
+
+    #Hola{
+
+        background-color: black;
+        align-content: center;
+        font-size: 30px;
+
+    }
+
+    .Footer{
+
+        position: absolute;
+        width: 100%;
+        float: left;
+        margin-top: 50%;
+        text-align: right;
+        color: grey;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        font-size: 10px;
+
+
+    }
+
+    .Footer .Social-Icons{
+
+        display: none;
+
+    }

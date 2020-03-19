@@ -1,0 +1,262 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    
+    /* GENERAL */
+
+    * {
+
+        margin:0%;
+        padding:0%;
+        box-sizing: border-box;
+        font-weight: 400;
+
+    }
+
+
+    body{
+
+        background-color: #ffffff;
+        font-family: Corbel;
+
+    }
+
+    #Container{
+
+        width: 97%;
+        max-width: 3500px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /* HEADER */
+
+    .Header{
+
+        text-align: center;
+        margin: 20px auto auto 10px;
+            
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /* MAIN MENU */
+
+    #Displeceable{
+
+        float: left;
+        margin: 40px 0px;
+        width: 75%;
+        position: relative; /*Convertimos el contenedor en posición absoluta*/
+        border-top: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;   
+
+    }
+     
+    nav ul {
+
+        list-style:none;
+
+    }
+     
+    nav > ul {
+
+        display:table;
+        
+    }
+     
+    nav > ul li {
+
+        display:table-cell;
+
+    }
+
+    nav ul li a {
+
+        color: #898989;
+        padding: 20px;
+        margin-left: 1px;
+        position: relative;
+        text-align: center;
+        text-decoration: none; 
+
+    }
+
+    nav > ul > li > a span .Icon {
+
+        color: rgb(10, 140, 211);
+        margin: 20px 0;
+        font-size: 20px;
+        opacity: .9;
+
+    }
+
+    #Icons{
+
+        float: right;
+        width: 25%;
+        margin: 40px 0;
+        position: relative;
+        font-size: 26px;
+        text-align: right;
+        border-top: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        opacity: .8;
+
+    }
+
+    .icon-facebook{
+
+        color: #3b5998;
+        margin: 17px 1px;
+        padding: 0px;
+
+    }
+
+    .icon-twitter{
+
+        color: #0084b4;
+        margin: 17px 1px;
+        padding: 0px;
+
+    }
+
+    .icon-mail{
+
+        color: #ffd900;
+        margin: 17px 1px;
+        padding: 0px;
+
+    }
+
+    .icon-instagrem{
+
+        color: #7511D2;
+        margin: 17px 1px;
+        padding: 0px;
+
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    .Pendient{
+
+        width: 100%;
+        height: 200px;
+        margin-top: 10%;
+        border: 1px solid #efefef;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        font-weight: bold;
+        color: #898989;
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    .Footer{
+
+        width: 100%;
+        float: left;
+        text-align: right;
+        margin: 20px 0;
+        color: grey;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        font-size: 10px;
+
+    }
+
+    .Footer .Social-Icons{
+
+        display: none;
+
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    @media screen and (max-width: 500px){
+
+        #Container{
+
+            width: 100%;
+
+        }
+
+    }
+
+    @media screen and (max-width: 800px){
+
+        .Header{
+
+            width: 100%;
+            text-align: left;
+
+        }
+
+        .Header .Logo{
+            
+            width: 90%;
+            height: 80%;
+
+        }
+
+        .Main{
+
+            width: 100%;
+
+        }
+
+        .Notices{
+
+            width: 100%;
+        }
+
+        .Social{
+            
+            width: 100%;
+
+        }
+
+        .Footer{
+
+            width: 100%;
+            
+        }
+
+        .Footer .Social-Icons{
+        
+            display: inline;
+            text-align: left;
+
+        }
+
+        #Icons .Social-Icons{
+            
+            display: none;
+
+        }
+
+        #Icons{
+
+        border-top: 0px solid #535B63;
+        border-bottom: 0px solid #535B63;
+        
+        }
+
+        #Displeceable{
+
+        margin: 20px 0px;
+        width: 100%;
+        display: block;
+        font-size: 1px;
+        text-align: center;
+        position: relative; /*Convertimos el contenedor en posición absoluta*/
+        border-top: 0px solid #535B63;
+        border-bottom: 0px solid #535B63;   
+
+        }
+
+    }
+
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
